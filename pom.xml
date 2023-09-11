@@ -29,9 +29,26 @@
   </dependencyManagement>
   <dependencies>
     <dependency>
-      <groupId>io.quarkiverse.quinoa</groupId>
-      <artifactId>quarkus-quinoa</artifactId>
-      <version>999-SNAPSHOT</version>
+      <groupId>io.quarkiverse.web-bundler</groupId>
+      <artifactId>quarkus-web-bundler</artifactId>
+      <version>1.1.2</version>
+    </dependency>
+    <dependency>
+      <groupId>io.quarkiverse.quteserverpages</groupId>
+      <artifactId>quarkus-qute-server-pages</artifactId>
+      <version>2.1.0.Final</version>
+    </dependency>
+    <dependency>
+      <groupId>org.mvnpm</groupId>
+      <artifactId>react</artifactId>
+      <version>18.2.0</version>
+      <scope>runtime</scope>
+    </dependency>
+    <dependency>
+      <groupId>org.mvnpm</groupId>
+      <artifactId>react-dom</artifactId>
+      <version>18.2.0</version>
+      <scope>runtime</scope>
     </dependency>
     <dependency>
       <groupId>io.quarkus</groupId>

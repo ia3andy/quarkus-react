@@ -10,12 +10,12 @@ import static org.hamcrest.CoreMatchers.is;
 public class CounterResourceTest {
 
     @Test
-    public void testHelloEndpoint() {
+    public void testCounterEndpoint() {
         given()
-          .when().get("/hello")
+          .when().get("/counter")
           .then()
              .statusCode(200)
-             .body(is("Hello from RESTEasy Reactive"));
+             .body(is("0"));
     }
 
 }
