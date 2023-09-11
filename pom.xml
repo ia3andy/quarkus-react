@@ -45,6 +45,12 @@
       <scope>runtime</scope>
     </dependency>
     <dependency>
+      <groupId>io.quarkiverse.playwright</groupId>
+      <artifactId>quarkus-playwright</artifactId>
+      <version>0.0.1</version>
+      <scope>test</scope>
+    </dependency>
+    <dependency>
       <groupId>org.mvnpm</groupId>
       <artifactId>react-dom</artifactId>
       <version>18.2.0</version>
